@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <title>Mustache.js Inline Method</title>
+    <script src="../../../Content/bethlehem/js/jquery.js"></script>
+    <script src="../libs/mustache.js"></script>
+
+</head>
+<body onload="loadtemp()">
+    <div>
+        <div class="main-wrap">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="demo/team/1.jpg" class="img-responsive" alt="">
+                            <div class="space20"></div>
+                            <div class="line"></div>
+                            <ul class="team-single-meta">
+                                <li><a href="#"><span><i class="fa fa-envelope"></i></span>E-mail me</a></li>
+                                <li><a href="#"><span><i class="fa fa-skype"></i></span>Add me on Skype</a></li>
+                                <li><a href="#"><span><i class="fa fa-facebook"></i></span>Find me on Facebook</a></li>
+                                <li><a href="#"><span><i class="fa fa-twitter"></i></span>Follow me on Twitter</a></li>
+                                <li><a href="#"><span><i class="fa fa-rss"></i></span>Reply my Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-11 team-single">
+                            <h4 id="name">{{name}}  <span id="typeInfo">{{typeInfo}}</span></h4>
+                            <span id="content">{{content}}</span>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-md-4">
+                    <div class="side-widget">
+                        <h5>Departments</h5>
+                        <ul class="categories">
+                            <li><a href="#">Church Leaders</a></li>
+                            <li><a href="#">Pastors</a></li>
+                            <li><a href="#">Volunteers</a></li>
+                            <li><a href="#">Other Stuff</a></li>
+                        </ul>
+                    </div>
+                    <div class="space50"></div>
+                    <div class="side-widget">
+                        <h5>Be a part of our volunteers</h5>
+                        <div class="side-about">
+                            <img src="demo/3.jpg" class="img-responsive" alt="">
+                            <p>Sed risus libero, cond neque non, vulput orper odio. Nullam vel orem non turpi feugiat tempor vel id nulla. Nunc tincidunt rutrum tincidunt.</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <!-- Main content -->
+        </div>
+        <!--<script src="/Scripts/app/controllers/information.js"></script>-->
+
+    </div>
+</body>
+</html>
+
+<script>
+    var view = {
+        name: "Trabajo Social",
+        typeInfo: "Mision",
+        content: 'this is the content for trabajo social'
+    };
+
+    function loadtemp() {
+        var htmlTemplate = $('.main-wrap').html();
+        var output = Mustache.render(htmlTemplate, view);
+        $('.main-wrap').html(output);
+    }
+</script>

@@ -1,0 +1,80 @@
+﻿<div class="main-wrap" ng-controller="controllerJS">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="../../../Content/img/2.jpg" class="img-responsive" alt="">
+                    <div class="space20"></div>
+                    <div class="line"></div>
+                    <ul class="team-single-meta">
+                        <li><a href="#"><span><i class="fa fa-envelope"></i></span>Correo Elctronico</a></li>
+                        <li><a href="#"><span><i class="fa fa-skype"></i></span>Agregame a Skype</a></li>
+                        <li><a href="#"><span><i class="fa fa-facebook"></i></span>Encuentrame en Facebook</a></li>
+                        <li><a href="#"><span><i class="fa fa-twitter"></i></span>Sigueme en Twiter</a></li>
+                        <li><a href="#"><span><i class="fa fa-rss"></i></span>Revisa mi Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-11 team-single">
+                    <h4 id="name">{{name}}<span id="typeInfo">{{typeInfo}}</span></h4>
+                    <span id="content">
+                        <p>{{contentInfo}}</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <aside class="col-md-4">
+            <div class="side-widget">
+                <h5>Informacion General</h5>
+                <ul class="categories" id="panel-info-general">
+                    <li><a href="#/information/carrera/{{carrera}}/info/historia">Historia</a></li>
+                    <li><a href="#/information/carrera/{{carrera}}/info/perfilprofesional">Perfil Profesional</a></li>
+                    <li><a href="#/information/carrera/{{carrera}}/info/mercadolaboral">Mercado Laboral</a></li>
+                    <li><a href="#/information/carrera/{{carrera}}/info/areasactividad">Areas de Actividad</a></li>
+                    <li>Pensum de la Carrera</li>
+                </ul>
+            </div>
+            <div class="space50"></div>
+            <div class="side-widget">
+                <h5>Informacion Academica</h5>
+                <ul class="categories">
+                    <li>Semestres :<p>{{semesters}}</p>
+                    </li>
+                    <li>Materias :<p>{{totalTopics}}</p>
+                    </li>
+                    <li>Contactos :<p>{{contact}}</p>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!-- Main content -->
+</div>
+
+<style>
+    .container p {
+        font-size: 15px;
+        text-align: justify;
+        font-family: tahoma;
+    }
+
+    .categories p {
+        display: inline;
+    }
+
+    .categories li {
+        color: #6a6969;
+    }
+
+        .categories li:hover {
+            color: #6a6969;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .categories li p {
+            color: #6a6969;
+            font-weight: 700;
+        }
+</style>
+
+<script src="/Scripts/app/controllers/information.js"></script>

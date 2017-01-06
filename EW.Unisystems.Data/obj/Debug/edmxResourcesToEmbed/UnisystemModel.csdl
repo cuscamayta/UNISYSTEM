@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBUnisystemModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBUnisystemEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Activity" EntityType="DBUnisystemModel.Activity" />
+    <EntitySet Name="Career" EntityType="DBUnisystemModel.Career" />
+    <EntitySet Name="Gallery" EntityType="DBUnisystemModel.Gallery" />
+    <EntitySet Name="News" EntityType="DBUnisystemModel.News" />
+    <EntitySet Name="Person" EntityType="DBUnisystemModel.Person" />
+    <EntitySet Name="Resource" EntityType="DBUnisystemModel.Resource" />
+    <AssociationSet Name="FK__Resource__IdCare__08EA5793" Association="DBUnisystemModel.FK__Resource__IdCare__08EA5793">
+      <End Role="Career" EntitySet="Career" />
+      <End Role="Resource" EntitySet="Resource" />
+    </AssociationSet>
+    <EntitySet Name="TypeResources" EntityType="DBUnisystemModel.TypeResource" />
+    <AssociationSet Name="FK__Resource__TypeRe__1920BF5C" Association="DBUnisystemModel.FK__Resource__TypeRe__1920BF5C">
+      <End Role="TypeResource" EntitySet="TypeResources" />
+      <End Role="Resource" EntitySet="Resource" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="IdActivity" />
+    </Key>
+    <Property Name="IdActivity" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DateActivity" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Time" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Career">
+    <Key>
+      <PropertyRef Name="IdCareer" />
+    </Key>
+    <Property Name="IdCareer" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Resource" Relationship="DBUnisystemModel.FK__Resource__IdCare__08EA5793" FromRole="Career" ToRole="Resource" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="IdImage" />
+    </Key>
+    <Property Name="IdImage" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="IdNews" />
+    </Key>
+    <Property Name="IdNews" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="DateNews" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="IdPerson" />
+    </Key>
+    <Property Name="IdPerson" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NamePerson" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Name="IdResource" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="IdCareer" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Link" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Career" Relationship="DBUnisystemModel.FK__Resource__IdCare__08EA5793" FromRole="Resource" ToRole="Career" />
+    <Property Type="Int32" Name="TypeResource" Nullable="false" />
+    <NavigationProperty Name="TypeResource1" Relationship="DBUnisystemModel.FK__Resource__TypeRe__1920BF5C" FromRole="Resource" ToRole="TypeResource" />
+    <Property Type="String" Name="Author" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Binary" Name="ResourceImage" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Resource__IdCare__08EA5793">
+    <End Role="Career" Type="DBUnisystemModel.Career" Multiplicity="1" />
+    <End Role="Resource" Type="DBUnisystemModel.Resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Career">
+        <PropertyRef Name="IdCareer" />
+      </Principal>
+      <Dependent Role="Resource">
+        <PropertyRef Name="IdCareer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="TypeResource">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Type="Int32" Name="IdResource" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="TypeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Resources" Relationship="DBUnisystemModel.FK__Resource__TypeRe__1920BF5C" FromRole="TypeResource" ToRole="Resource" />
+  </EntityType>
+  <Association Name="FK__Resource__TypeRe__1920BF5C">
+    <End Type="DBUnisystemModel.TypeResource" Role="TypeResource" Multiplicity="1" />
+    <End Type="DBUnisystemModel.Resource" Role="Resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeResource">
+        <PropertyRef Name="IdResource" />
+      </Principal>
+      <Dependent Role="Resource">
+        <PropertyRef Name="TypeResource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

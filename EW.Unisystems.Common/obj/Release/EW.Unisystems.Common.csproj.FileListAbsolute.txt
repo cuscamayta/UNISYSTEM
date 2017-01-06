@@ -1,0 +1,4 @@
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\bin\Release\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\bin\Release\EW.Unisystems.Common.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\obj\Release\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\obj\Release\EW.Unisystems.Common.pdb

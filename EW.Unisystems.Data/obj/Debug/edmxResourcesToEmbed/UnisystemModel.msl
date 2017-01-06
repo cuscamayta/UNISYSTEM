@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBUnisystemModelStoreContainer" CdmEntityContainer="DBUnisystemEntities">
+    <EntitySetMapping Name="Activity">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.Activity)">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+          <ScalarProperty Name="DateActivity" ColumnName="DateActivity" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Career">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.Career)">
+        <MappingFragment StoreEntitySet="Career">
+          <ScalarProperty Name="IdCareer" ColumnName="IdCareer" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gallery">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.Gallery)">
+        <MappingFragment StoreEntitySet="Gallery">
+          <ScalarProperty Name="IdImage" ColumnName="IdImage" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.News)">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="IdNews" ColumnName="IdNews" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="DateNews" ColumnName="DateNews" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.Person)">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="IdPerson" ColumnName="IdPerson" />
+          <ScalarProperty Name="NamePerson" ColumnName="NamePerson" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resource">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.Resource)">
+        <MappingFragment StoreEntitySet="Resource">
+          <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+          <ScalarProperty Name="IdCareer" ColumnName="IdCareer" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="TypeResource" ColumnName="TypeResource" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="ResourceImage" ColumnName="ResourceImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeResources">
+      <EntityTypeMapping TypeName="IsTypeOf(DBUnisystemModel.TypeResource)">
+        <MappingFragment StoreEntitySet="TypeResources">
+          <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

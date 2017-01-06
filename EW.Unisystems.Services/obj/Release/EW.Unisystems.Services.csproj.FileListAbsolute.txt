@@ -1,0 +1,11 @@
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Services.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Services.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EntityFramework.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Common.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EW.Unisystems.Data.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Release\EntityFramework.xml
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Release\EW.Unisystems.Services.csprojResolveAssemblyReference.cache
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Release\EW.Unisystems.Services.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Release\EW.Unisystems.Services.pdb

@@ -1,0 +1,15 @@
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.csprojResolveAssemblyReference.cache
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.csprojResolveAssemblyReference.cache
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.pdb
+D:\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.dll
+D:\UNISYSTEM\EW.Unisystems.Common\bin\Debug\EW.Unisystems.Common.pdb
+D:\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.csprojResolveAssemblyReference.cache
+D:\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.dll
+D:\UNISYSTEM\EW.Unisystems.Common\obj\Debug\EW.Unisystems.Common.pdb

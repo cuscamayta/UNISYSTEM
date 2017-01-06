@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBUnisystemModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DBUnisystemModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="DBUnisystemModel.Store.Activity" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Career" EntityType="DBUnisystemModel.Store.Career" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Gallery" EntityType="DBUnisystemModel.Store.Gallery" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="News" EntityType="DBUnisystemModel.Store.News" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Person" EntityType="DBUnisystemModel.Store.Person" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Resource" EntityType="DBUnisystemModel.Store.Resource" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TypeResources" EntityType="DBUnisystemModel.Store.TypeResources" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Resource__IdCare__08EA5793" Association="DBUnisystemModel.Store.FK__Resource__IdCare__08EA5793">
+      <End Role="Career" EntitySet="Career" />
+      <End Role="Resource" EntitySet="Resource" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Resource__TypeRe__1920BF5C" Association="DBUnisystemModel.Store.FK__Resource__TypeRe__1920BF5C">
+      <End Role="TypeResource" EntitySet="TypeResources" />
+      <End Role="Resource" EntitySet="Resource" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="IdActivity" />
+    </Key>
+    <Property Name="IdActivity" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateActivity" Type="datetime" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Time" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Image" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Career">
+    <Key>
+      <PropertyRef Name="IdCareer" />
+    </Key>
+    <Property Name="IdCareer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="IdImage" />
+    </Key>
+    <Property Name="IdImage" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="Image" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="IdNews" />
+    </Key>
+    <Property Name="IdNews" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Content" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="DateNews" Type="datetime" Nullable="false" />
+    <Property Name="Image" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="IdPerson" />
+    </Key>
+    <Property Name="IdPerson" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NamePerson" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Phone" Type="varchar" Nullable="true" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Name="IdResource" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdCareer" Type="int" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="Link" Type="varchar" Nullable="false" MaxLength="300" />
+    <Property Name="TypeResource" Type="int" Nullable="false" />
+    <Property Name="Author" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ResourceImage" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="TypeResources">
+    <Key>
+      <PropertyRef Name="IdResource" />
+    </Key>
+    <Property Name="IdResource" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__Resource__IdCare__08EA5793">
+    <End Role="Career" Type="DBUnisystemModel.Store.Career" Multiplicity="1" />
+    <End Role="Resource" Type="DBUnisystemModel.Store.Resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Career">
+        <PropertyRef Name="IdCareer" />
+      </Principal>
+      <Dependent Role="Resource">
+        <PropertyRef Name="IdCareer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Resource__TypeRe__1920BF5C">
+    <End Role="TypeResource" Type="DBUnisystemModel.Store.TypeResources" Multiplicity="1" />
+    <End Role="Resource" Type="DBUnisystemModel.Store.Resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeResource">
+        <PropertyRef Name="IdResource" />
+      </Principal>
+      <Dependent Role="Resource">
+        <PropertyRef Name="TypeResource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

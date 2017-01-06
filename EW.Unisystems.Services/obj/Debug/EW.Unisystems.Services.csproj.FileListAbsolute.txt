@@ -1,0 +1,42 @@
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.pdb
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.pdb
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.xml
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.csprojResolveAssemblyReference.cache
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.xml
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.csprojResolveAssemblyReference.cache
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.xml
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.csprojResolveAssemblyReference.cache
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.pdb
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.dll
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Services.pdb
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.dll
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.dll
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.dll
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Common.pdb
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EW.Unisystems.Data.pdb
+D:\UNISYSTEM\EW.Unisystems.Services\bin\Debug\EntityFramework.xml
+D:\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.csprojResolveAssemblyReference.cache
+D:\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.dll
+D:\UNISYSTEM\EW.Unisystems.Services\obj\Debug\EW.Unisystems.Services.pdb

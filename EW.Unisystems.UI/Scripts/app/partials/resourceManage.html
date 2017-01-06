@@ -1,0 +1,78 @@
+<div class="main-wrap">
+    <div class="container">
+        <!-- Contact form -->
+        <div class="col-md-12 contact-form-info">
+            <h5>Registrar nuevo recurso</h5>
+            <p>Por favor llene los datos correspondiente y guarde el recurso.</p>
+            <div style="position: relative;">
+                <form class="comment-form" id="contactForm" action="http://spyropress.com/bethlehem/php/contact.php" method="post">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" name="author" id="author" placeholder="Autor" required="required" />
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" name="title" id="title" placeholder="Titulo" required="required" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" name="link" id="link" placeholder="Enlace Recurso" required="required" />
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="upload-file" name="file" id="file" placeholder="Imagen" required="required" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-16">
+                            <textarea name="description" id="description" rows="8" required="required" placeholder="Descripcion"></textarea>
+                            <button type="submit" id="sendMessage" name="sendMessage" class="c-btn pull-right">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="successMessage" class="successmessage">
+                    <p><span class="success-ico"></span>Thanks for sending your message! We'll get back to you shortly.</p>
+                </div>
+                <div id="failureMessage" class="errormessage">
+                    <p><span class="error-ico"></span>There was a problem sending your message. Please try again.</p>
+                </div>
+                <div id="incompleteMessage" class="statusMessage">
+                    <p>Please complete all the fields in the form before sending.</p>
+                </div>
+            </div>
+            <div class="space60"></div>
+
+
+        </div>
+        <aside class="col-md-4">
+            <div class="side-widget">
+                <h5>Search</h5>
+                <form class="search">
+                    <input type="search" placeholder="Type and search">
+                </form>
+            </div>
+            <div class="space40"></div>
+            <div class="side-widget">
+                <h5>Departments</h5>
+                <ul class="categories">
+                    <li><a href="#">Church Leaders</a></li>
+                    <li><a href="#">Pastors</a></li>
+                    <li><a href="#">Volunteers</a></li>
+                    <li><a href="#">Other Stuff</a></li>
+                </ul>
+            </div>
+            <div class="side-widget">
+                <h5>Useful Pages</h5>
+                <ul class="categories">
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Knowledge Base</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Donations</a></li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Contact form -->
+    </div>
+</div>
+
+
+<script src="/Scripts/app/controllers/resourceManage.js"></script>

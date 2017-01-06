@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuTfHLxfZXEmdHjKQhz4umwAAAAACAAAAAAAQZgAAAAEAACAAAAB/nhA3S2DJCoTeI4SPpGEYleEqEtv2oLcqcI2dm2JZPAAAAAAOgAAAAAIAACAAAAA4r+2QTO8lKP3jUwbS3Yx1wJBvz6WeRbiNTmudAK8Q8CAAAAAh5Kbqkf4scAQ6Z/ywNzG3usNmR9FmneJVU67/7sRjLEAAAAB94ToLXbl091zOyTreaJl7PFnKqF4Xb2AHTcb9PmTFIqG2bWNtOlgTWLEeJ7jTeQhvBh/5OWHGzJleaBkigM/f</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.smarterasp.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>11/08/2016 16:41:18</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>11/08/2016 16:41:17</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/13/2016 00:02:26</publishTime>
+    </File>
+    <File Include="bin/es/System.Net.Http.Formatting.resources.dll">
+      <publishTime>11/06/2016 13:17:08</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.resources.dll">
+      <publishTime>11/06/2016 13:17:09</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Http.WebHost.resources.dll">
+      <publishTime>11/06/2016 13:17:10</publishTime>
+    </File>
+    <File Include="bin/EW.Unisystems.Common.dll">
+      <publishTime>11/07/2016 16:06:10</publishTime>
+    </File>
+    <File Include="bin/EW.Unisystems.Data.dll">
+      <publishTime>11/07/2016 16:06:10</publishTime>
+    </File>
+    <File Include="bin/EW.Unisystems.Services.dll">
+      <publishTime>11/07/2016 16:06:12</publishTime>
+    </File>
+    <File Include="bin/EW.Unisystems.UI.dll">
+      <publishTime>11/07/2016 16:06:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/08/2013 15:15:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/06/2016 13:16:50</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/06/2016 13:17:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/05/2011 15:45:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/06/2016 13:17:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/06/2016 13:17:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/05/2011 17:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/05/2011 15:45:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/05/2011 15:45:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/05/2011 15:45:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/05/2011 15:45:38</publishTime>
+    </File>
+    <File Include="Content/bethlehem/billingaddress.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/blog-grid.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/blog.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/blog_single.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/contact.html">
+      <publishTime>11/06/2016 09:48:25</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/bootstrap.css">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/flexslider.css">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/fonts/flexslider-icon-2.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/fonts/flexslider-icon-3.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/fonts/flexslider-icon-4.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/fonts/flexslider-icon.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/fonts/flexslider-icond41d.html">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/isotope.css">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/jquery-ui.css">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/style.css">
+      <publishTime>11/06/2016 23:50:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/css/timeline.css">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/1.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/2.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/3.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/4.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/5.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/6.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/7.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/8.jpg">
+      <publishTime>04/27/2016 19:39:05</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/9.jpg">
+      <publishTime>04/27/2016 19:30:26</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/author1.png">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/1-big.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/1.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/2-big.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/2.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/3.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/4.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/5.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/6.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/7.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/1.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/2.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/3.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/4.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/5.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/6.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/7.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/blog/grid/8.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/contact/1.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/contact/2.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/contact/3.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/1.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/2.jpg">
+      <publishTime>03/31/2016 22:53:46</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/donate/big.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/map.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/8.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/ministries/big.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/payment/1.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/payment/2.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/payment/3.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/payment/4.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/payment/5.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/10.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/8.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/quote/9.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/sermons/big.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/list/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/list/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/list/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/list/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/list/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/8.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/shop/9.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/1a.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/1b.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/1c.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/1d.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/shop/single/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/slide/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/slide/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/slide/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/7.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/9.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/big.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/stories/big1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/4.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/5.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/team/6.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/2a.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/2b.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/2c.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/timeline/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/xtra/1.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/xtra/2.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/xtra/3.jpg">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/demo/xtra/author1.png">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/donatecause.html">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/donate_single.html">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/events-calendar.html">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/events-single.html">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/events.html">
+      <publishTime>03/31/2016 22:53:47</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/css/font-awesome.min.css">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/fonts/fontawesome-webfontba72.eot">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/fonts/fontawesome-webfontba72.svg">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/fonts/fontawesome-webfontba72.ttf">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/fonts/fontawesome-webfontba72.woff">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/fonts/glyphicons-halflings-regular-2.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/fonts/glyphicons-halflings-regular-3.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/fonts/glyphicons-halflings-regular-4.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/fonts/glyphicons-halflings-regular.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/fonts/glyphicons-halflings-regulard41d.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/a-link.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/animated-overlay.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/border.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/bullets.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/cart.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/cart1.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/close.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/error.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/filter-sep.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/home.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/logo-alt.png">
+      <publishTime>04/26/2016 17:42:08</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/logo.png">
+      <publishTime>04/27/2016 19:40:25</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/m-dummy.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/next-mid-hr.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/next-mid.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/next.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/next1.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/next_hr.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/play.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/prev-mid-hr.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/prev-mid.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/prev.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/prev1.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/prev_hr.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/quote.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/search.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/slider_dbtn.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/success.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/timeline.png">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-bg_flat_0_aaaaaa_40x100.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-bg_glass_55_fbf9ee_1x400.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-bg_glass_95_fef1ec_1x400.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-icons_222222_256x240.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-icons_2e83ff_256x240.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-icons_454545_256x240.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-icons_888888_256x240.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/images/ui-icons_cd0a0a_256x240.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/img/apple-touch-icon-114x114.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/img/apple-touch-icon-144x144.html">
+      <publishTime>03/31/2016 22:53:48</publishTime>
+    </File>
+    <File Include="Content/bethlehem/img/apple-touch-icon-72x72.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/img/apple-touch-icon.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/img/favicon.ico">
+      <publishTime>04/28/2016 10:45:18</publishTime>
+    </File>
+    <File Include="Content/bethlehem/im_new.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/index.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/bootstrap.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/contact.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery-ui.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.accordion.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.animateNumber.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.appear.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.easing.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.flexslider.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.isotope.min.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.mobilemenu.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/jquery.stellar.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/main.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/owl-carousel/AjaxLoader.gif">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/owl-carousel/grabbing.png">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/owl-carousel/owl.carousel.css">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/owl-carousel/owl.carousel.js">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/js/owl-carousel/owl.theme.css">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/ministries-grid.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/ministries-list.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/ministries-single.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/people.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/people_single.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/sermons.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/sermons_single.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/shop-grid.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/shop-list.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/shop-single.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/shopping-cart.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/signin.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/stories-single.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/stories.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/bethlehem/timeline.html">
+      <publishTime>03/31/2016 22:53:49</publishTime>
+    </File>
+    <File Include="Content/img/1.jpg">
+      <publishTime>05/02/2016 17:59:41</publishTime>
+    </File>
+    <File Include="Content/img/2.jpg">
+      <publishTime>05/01/2016 16:29:41</publishTime>
+    </File>
+    <File Include="Content/img/logo.png">
+      <publishTime>10/19/2016 17:56:59</publishTime>
+    </File>
+    <File Include="Content/img/slide1.png">
+      <publishTime>10/19/2016 17:43:25</publishTime>
+    </File>
+    <File Include="Content/img/slide2.jpg">
+      <publishTime>10/19/2016 17:44:07</publishTime>
+    </File>
+    <File Include="Content/img/slide3.png">
+      <publishTime>10/19/2016 18:01:47</publishTime>
+    </File>
+    <File Include="Content/img/slide4.png">
+      <publishTime>10/19/2016 18:02:22</publishTime>
+    </File>
+    <File Include="Content/img/slide5.png">
+      <publishTime>10/19/2016 18:02:56</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/06/2016 13:17:10</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2016 16:41:06</publishTime>
+    </File>
+    <File Include="Scripts/ajaxupload.js">
+      <publishTime>06/19/2016 21:39:54</publishTime>
+    </File>
+    <File Include="Scripts/app/app.js">
+      <publishTime>06/20/2016 19:36:20</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/books.js">
+      <publishTime>05/04/2016 23:21:49</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/home.js">
+      <publishTime>06/19/2016 22:25:23</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/information.js">
+      <publishTime>05/02/2016 11:27:10</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/news.js">
+      <publishTime>05/08/2016 09:17:18</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/resourceManage.js">
+      <publishTime>06/20/2016 20:32:09</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/resources.js">
+      <publishTime>06/19/2016 21:30:12</publishTime>
+    </File>
+    <File Include="Scripts/app/controllers/videos.js">
+      <publishTime>05/05/2016 20:14:18</publishTime>
+    </File>
+    <File Include="Scripts/app/libs/angular.js">
+      <publishTime>05/01/2016 14:28:14</publishTime>
+    </File>
+    <File Include="Scripts/app/libs/mustache.js">
+      <publishTime>05/01/2016 14:57:50</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/activities.html">
+      <publishTime>04/25/2016 00:09:09</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/books.html">
+      <publishTime>11/06/2016 23:53:39</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/calendar.html">
+      <publishTime>10/28/2016 18:48:35</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/contact.html">
+      <publishTime>11/06/2016 09:54:09</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/gallery.html">
+      <publishTime>10/28/2016 18:36:51</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/history.html">
+      <publishTime>04/27/2016 19:44:57</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/home.html">
+      <publishTime>05/07/2016 22:30:12</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/information.html">
+      <publishTime>05/01/2016 17:29:23</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/mision.html">
+      <publishTime>04/27/2016 19:44:57</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/news.html">
+      <publishTime>10/28/2016 18:29:13</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/resourceManage.html">
+      <publishTime>06/19/2016 22:59:08</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/resources.html">
+      <publishTime>06/19/2016 21:32:06</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/test.html">
+      <publishTime>04/27/2016 19:49:46</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/videos.html">
+      <publishTime>10/28/2016 18:51:58</publishTime>
+    </File>
+    <File Include="Scripts/app/partials/vision.html">
+      <publishTime>05/01/2016 15:02:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.debug.js">
+      <publishTime>03/31/2016 22:52:42</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.js">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.debug.js">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.js">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.debug.js">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.js">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePassword.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePasswordSuccess.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Account/LogOn.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/08/2016 16:40:07</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_LogOnPartial.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/31/2016 22:52:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/07/2016 16:06:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

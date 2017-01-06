@@ -1,0 +1,32 @@
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll.config
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.pdb
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.xml
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.csprojResolveAssemblyReference.cache
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\SYSTEMS\WEB CATOLICA\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll.config
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.pdb
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.xml
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.csprojResolveAssemblyReference.cache
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.dll
+D:\engineersworking\UNISYSTEM28042016\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll.config
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.xml
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.csprojResolveAssemblyReference.cache
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.pdb
+D:\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll.config
+D:\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.dll
+D:\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EW.Unisystems.Data.pdb
+D:\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.dll
+D:\UNISYSTEM\EW.Unisystems.Data\bin\Debug\EntityFramework.xml
+D:\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.csprojResolveAssemblyReference.cache
+D:\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.dll
+D:\UNISYSTEM\EW.Unisystems.Data\obj\Debug\EW.Unisystems.Data.pdb

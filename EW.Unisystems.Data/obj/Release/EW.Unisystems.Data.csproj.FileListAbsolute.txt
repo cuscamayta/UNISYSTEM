@@ -1,0 +1,7 @@
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Release\EW.Unisystems.Data.dll.config
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Release\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Release\EW.Unisystems.Data.pdb
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Release\EntityFramework.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\bin\Release\EntityFramework.xml
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Release\EW.Unisystems.Data.dll
+D:\PROJECTS\UNISYSTEM\UNISYSTEM\EW.Unisystems.Data\obj\Release\EW.Unisystems.Data.pdb

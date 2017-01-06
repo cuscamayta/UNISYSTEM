@@ -1,0 +1,56 @@
+<div class="main-wrap">
+    <div class="container">
+        <!-- Contact form -->
+        <div class="col-md-12 contact-form-info">
+            <h5>Formulario de Contacto</h5>
+            <p>Si tiene alguna duda no dude en contactarse con nosotros , Estaremos gustosos de responder sus consultas e inquietudes.</p>
+            <div style="position:relative;">
+                <form class="comment-form" id="contactForm" action="http://spyropress.com/bethlehem/php/contact.php" method="post">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" name="senderName" id="senderName" placeholder="Nombre Completo" required="required" />
+                        </div>
+                        <div class="col-md-8">
+                            <input type="email" name="senderEmail" id="senderEmail" placeholder="Correo electronico" required="required" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-16">
+                            <input type="text" name="subject" id="subject" placeholder="Asunto del Mensaje" required="required" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-16">
+                            <textarea name="message" id="message" rows="8" required="required"></textarea>
+                            <button type="submit" id="sendMessage" name="sendMessage" class="c-btn pull-right">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="successMessage" class="successmessage">
+                    <p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+                </div>
+                <div id="failureMessage" class="errormessage">
+                    <p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+                </div>
+                <div id="incompleteMessage" class="statusMessage">
+                    <p>Please complete all the fields in the form before sending.</p>
+                </div>
+            </div>
+            <div class="space60"></div>
+            
+        </div>
+        <aside class="col-md-4">      
+            <div class="space40"></div>
+            <div class="side-widget">
+                <h5>Departamentos</h5>
+                <ul class="categories">
+                    <li><a href="#">La Paz</a></li>
+                    <li><a href="#">Cochabamba</a></li>
+                    <li><a href="#">Tarija</a></li>
+                    <li><a href="#">Santa Cruz</a></li>
+                </ul>
+            </div>          
+        </aside>
+        <!-- Contact form -->
+    </div>
+</div>

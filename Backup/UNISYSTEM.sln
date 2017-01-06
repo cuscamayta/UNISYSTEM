@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.Unisystems.Data", "EW.Unisystems.Data\EW.Unisystems.Data.csproj", "{4D72EACB-025C-4AC3-B5D1-9CE9F14A97E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.Unisystems.Services", "EW.Unisystems.Services\EW.Unisystems.Services.csproj", "{D9E3A37E-5A07-4823-98D8-0CD52FA495F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.Unisystems.UI", "EW.Unisystems.UI\EW.Unisystems.UI.csproj", "{A187AE91-A391-42B3-98E0-33970A05F80E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://engineersworking.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EW.Unisystems.Data\\EW.Unisystems.Data.csproj
+		SccProjectName1 = EW.Unisystems.Data
+		SccLocalPath1 = EW.Unisystems.Data
+		SccProjectUniqueName2 = EW.Unisystems.Services\\EW.Unisystems.Services.csproj
+		SccProjectName2 = EW.Unisystems.Services
+		SccLocalPath2 = EW.Unisystems.Services
+		SccProjectUniqueName3 = EW.Unisystems.UI\\EW.Unisystems.UI.csproj
+		SccProjectName3 = EW.Unisystems.UI
+		SccLocalPath3 = EW.Unisystems.UI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D72EACB-025C-4AC3-B5D1-9CE9F14A97E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D72EACB-025C-4AC3-B5D1-9CE9F14A97E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D72EACB-025C-4AC3-B5D1-9CE9F14A97E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D72EACB-025C-4AC3-B5D1-9CE9F14A97E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E3A37E-5A07-4823-98D8-0CD52FA495F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E3A37E-5A07-4823-98D8-0CD52FA495F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E3A37E-5A07-4823-98D8-0CD52FA495F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E3A37E-5A07-4823-98D8-0CD52FA495F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A187AE91-A391-42B3-98E0-33970A05F80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A187AE91-A391-42B3-98E0-33970A05F80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A187AE91-A391-42B3-98E0-33970A05F80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A187AE91-A391-42B3-98E0-33970A05F80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
